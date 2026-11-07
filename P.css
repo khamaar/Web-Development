@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://img.magnific.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-161274.jpg");
+    color: white;
+}
+nav{
+    background-color: rgb(26, 56, 56);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0px 41px;
+    justify-items: center;
+    align-items: center;
+}
+#me{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    color: cornsilk;
+    cursor: pointer;
+}
+#me li{
+    font:bold;
+}
+#me li:hover{
+    position: relative;
+    transform: scale(1.3);
+}
+.logo{
+    color: rgb(206, 104, 104);
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+span{
+    color: rgb(206, 104, 104);
+    font-size: 32px;
+}
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    color: brown;
+}
+.first{
+    text-align: center;
+    font-size: 800%;
+}
+.second{
+    font-size: 900%;
+}
+@media (max-width: 678px) {
+    .first, .second{
+        font-size: 300%;
+    }
+    nav{
+        padding: 3px;
+        justify-content: space-around;
+    }
+}
+#intro{
+    margin:0px 18px;
+    margin-top: 39px;
+    text-align: center;
+}
+p{
+    margin-top: 2px;
+    font-size: 17px;
+}
+.background{
+    margin-top: 22px;
+}
+.li{
+     margin-top: 22px;
+     display: flex;
+     justify-content: center;
+}
+.mli {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+button{
+    background-color: rgb(212, 30, 30);
+    padding: 9px 14px;
+    border-radius: 8px;
+    margin: 25px 50%;
+    font: bold;
+    color: white;
+}
+.card{
+    background-color: rgb(24, 32, 48);
+    height: 160px;
+    width: 34%;
+    text-align: center;
+    margin: 16% 37%;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    border: 2px solid rgb(194, 44, 34);
+    display: none;
+}
+#con{
+    margin-top: 27px;
+}
+#bn{
+    text-align: center;
+}
+#lin :hover{
+    text-decoration: underline;
+}
